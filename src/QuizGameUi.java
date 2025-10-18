@@ -1,9 +1,12 @@
+package src;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
+
 
 public class QuizGameUi extends JFrame {
 
@@ -151,18 +154,18 @@ public class QuizGameUi extends JFrame {
     }
 
     private void iniciarContador() {
-        tempoRestante = 1005;
-        lblTempo.setText("⏳ " + tempoRestante + "s");
+        tempoRestante = 15;
+        lblTempo.setText(tempoRestante + "s");
         if (timerContador != null)
             timerContador.stop();
 
         timerContador = new Timer(1000, e -> {
             tempoRestante--;
-            lblTempo.setText("⏳ " + tempoRestante + "s");
+            lblTempo.setText(tempoRestante + "s");
             if (tempoRestante <= 0) {
                 ((Timer) e.getSource()).stop();
                 lblFeedback.setForeground(Color.RED);
-                lblFeedback.setText("<html><center>Tempo esgotado! ⏳<br>➡ Resposta correta: " +
+                lblFeedback.setText("<html><center>Tempo esgotado! <br>➡ Resposta correta: " +
                         perguntas.get(perguntaAtual).getOpcoes()[perguntas.get(perguntaAtual).getCorreta()]
                         + "</center></html>");
                 for (JButton btn : btnOpcoes)
@@ -195,7 +198,7 @@ public class QuizGameUi extends JFrame {
     }
 
     private void avancarPergunta() {
-        timerDelay = new Timer(100, e -> {
+        timerDelay = new Timer(1500, e -> {
             perguntaAtual++;
             mostrarPergunta();
             timerDelay.stop();

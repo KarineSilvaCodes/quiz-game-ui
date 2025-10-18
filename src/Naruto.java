@@ -164,12 +164,12 @@ public class Naruto {
 }
 
 // Classe que representa uma pergunta individual
-class Pergunta {
+class Pergunta1 {
     private String texto;       // Texto da pergunta
     private String[] opcoes;    // Alternativas
     private int correta;        // Índice da opção correta
 
-    public Pergunta(String texto, String[] opcoes, int correta) {
+    public Pergunta1(String texto, String[] opcoes, int correta) {
         this.texto = texto;
         this.opcoes = opcoes;
         this.correta = correta;
