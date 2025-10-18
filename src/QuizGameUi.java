@@ -1,3 +1,4 @@
+package src;
 // Importações necessárias para listas, scanner e utilidades
 import java.util.ArrayList;
 import java.util.Collections;
