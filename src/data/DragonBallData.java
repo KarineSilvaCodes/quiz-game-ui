@@ -7,39 +7,43 @@ import java.util.List;
 
 public class DragonBallData {
 
-    public static List<Pergunta> getDragonBall() {
-        List<Pergunta> lista = new ArrayList<>();
+        public static List<Pergunta> getDragonBall() {
+                ArrayList<Pergunta> lista = new ArrayList<>();
 
-        lista.add(new Pergunta(
-                "Quem é o protagonista da série?",
-                new String[]{"Goku", "Vegeta", "Gohan", "Piccolo"},
-                0,
-                new String[]{
-                        "Perfeito! Você liberou seu Super Saiyajin interior! 💥",
-                        "Ops... parece que seu Ki falhou 😅"
-                }));
+                lista.add(new Pergunta(
+                                "Quem é o protagonista da série?",
+                                new String[] { "Goku", "Vegeta", "Gohan", "Piccolo" },
+                                0,
+                                new String[] {
+                                                "Correto! Goku é o verdadeiro herói! 💥",
+                                                "Vegeta é forte, mas não é o protagonista!",
+                                                "Gohan é incrível, mas ainda criança no começo!",
+                                                "Piccolo é um aliado, mas não o protagonista!"
+                                }));
 
-        lista.add(new Pergunta(
-                "Qual é a transformação famosa de Goku?",
-                new String[]{"Super Saiyajin", "Kaioken", "Mestre Roshi", "Ultra Instinct"},
-                0,
-                new String[]{
-                        "Incrível! Até o Goku ficaria impressionado!",
-                        "Você foi derrotado antes do final flash!"
-                }));
+                lista.add(new Pergunta(
+                                "Qual é a transformação famosa de Goku?",
+                                new String[] { "Super Saiyajin", "Kaioken", "Mestre Roshi", "Ultra Instinct" },
+                                0,
+                                new String[] {
+                                                "Acertou! Super Saiyajin é lendário! ⚡",
+                                                "Kaioken é bom, mas não é a transformação clássica!",
+                                                "Mestre Roshi? Ele só ensina técnicas!",
+                                                "Ultra Instinct é avançado demais, tente novamente!"
+                                }));
 
-        lista.add(new Pergunta(
-                "Quem é o príncipe dos Saiyajins?",
-                new String[]{"Vegeta", "Goku", "Gohan", "Trunks"},
-                0,
-                new String[]{
-                        "Você dominou o Kamehameha! ⚡",
-                        "Nem o Vegeta acertaria isso tão fácil!"
-                }));
+                lista.add(new Pergunta(
+                                "Quem é o príncipe dos Saiyajins?",
+                                new String[] { "Vegeta", "Goku", "Gohan", "Trunks" },
+                                0,
+                                new String[] {
+                                                "Correto! Vegeta é o príncipe orgulhoso! 👑",
+                                                "Goku é protagonista, mas não príncipe!",
+                                                "Gohan é filho de Goku, não príncipe!",
+                                                "Trunks é futuro príncipe, mas não agora!"
+                                }));
 
-        // ... adicione as outras perguntas do mesmo jeito
-
-        Collections.shuffle(lista);
-        return lista;
-    }
+                Collections.shuffle(lista);
+                return lista;
+        }
 }

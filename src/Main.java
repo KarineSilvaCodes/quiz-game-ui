@@ -1,13 +1,13 @@
 package src;
-
-import src.data.AnimeData;
 import src.data.BleachData;
 import src.data.DeathNoteData;
 import src.data.DragonBallData;
 import src.data.HunterxHunterData;
 import src.data.KimetsuNoYaibaData;
 import src.data.NanatsuData;
+import src.data.NarutoData;
 import src.data.OnePieceData;
+import src.data.TokyoGhoulData;
 import src.data.CavaleirosZodiacoData;
 import src.core.Pergunta;
 
@@ -56,7 +56,7 @@ public class Main {
         panelMain.add(label);
         panelMain.add(Box.createVerticalStrut(30));
 
-        addAnimeButton("Naruto", AnimeData.getNaruto(), new Color(150, 120, 200),
+        addAnimeButton("Naruto", NarutoData.getNaruto(), new Color(150, 120, 200),
                 "📝 BEM-VINDO AO QUIZ DE NARUTO! 📝",
                 new String[] { "Você é um ninja de elite! 🥷", "Continue treinando no campo!", "Muito bem!",
                         "Parabéns! Você completou o quiz!" });
@@ -76,7 +76,7 @@ public class Main {
                         "Excelente! Você sobreviveu a todas as batalhas!",
                         "Fim do quiz! Continue treinando sua respiração!" });
 
-        addAnimeButton("Tokyo Ghoul", AnimeData.getTokyoGhoul(), new Color(150, 120, 200),
+        addAnimeButton("Tokyo Ghoul", TokyoGhoulData.getTokyoGhoul(), new Color(150, 120, 200),
                 "🩸 BEM-VINDO AO QUIZ DE TOKYO GHOUL! 🩸",
                 new String[] { "Você está pronto para ser um investigador! 🕵️‍♂️",
                         "Cuidado para não virar um ghoul! 👀", "Quase lá, mas treine mais com Kaneki!",
@@ -235,7 +235,7 @@ public class Main {
         if (correta)
             acertos++;
 
-        JOptionPane.showMessageDialog(frame, p.getFeedback(correta));
+        JOptionPane.showMessageDialog(frame, p.getFeedback(escolha));
         perguntaAtual++;
         mostrarPergunta();
     }
