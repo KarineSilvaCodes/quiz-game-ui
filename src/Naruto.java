@@ -95,6 +95,9 @@ public class Naruto {
         lista.add(new Pergunta("Qual é o nome da raposa de nove caudas selada em Naruto?",
                 new String[]{"Kurama", "Gyūki", "Shukaku", "Matatabi"}, 0));
 
+
+
+                
         lista.add(new Pergunta("Quem treinou o Naruto após a luta com Sasuke no Vale do Fim?",
                 new String[]{"Jiraiya", "Kakashi", "Iruka", "Minato"}, 0));
 
