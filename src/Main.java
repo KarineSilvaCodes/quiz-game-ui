@@ -246,7 +246,7 @@ public class Main {
     }
 
     private void mostrarResultado() {
-        panelMain = new BackgroundPanel("src/imagens/nezuko.gif"); // imagem de fundo final
+        panelMain = new BackgroundPanel("src/imagens/image.png"); // imagem de fundo final
         panelMain.setLayout(new BoxLayout(panelMain, BoxLayout.Y_AXIS));
         panelMain.setBorder(BorderFactory.createEmptyBorder(20, 50, 20, 50));
 
