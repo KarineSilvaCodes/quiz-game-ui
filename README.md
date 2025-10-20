@@ -5,6 +5,30 @@
 
 <hr>
 
+## 🖼️ Estrutura do Projeto
+
+O projeto consiste em **3 telas principais**, que representam o fluxo completo do jogo:
+
+### 🟢 **Tela 1 — Seleção de Animes**
+Tela inicial onde o jogador escolhe o anime desejado para iniciar o quiz.  
+<img width="1144" height="761" alt="image" src="https://github.com/user-attachments/assets/56bd7449-9e52-44ca-b65b-7e836bf152f7" />
+
+---
+
+### 🟡 **Tela 2 — Quiz do Anime Selecionado**
+Tela principal do jogo, exibindo as perguntas e opções de resposta.  
+Cada anime possui perguntas e feedbacks personalizados, além de uma trilha sonora leve e efeitos sonoros interativos.  
+<img width="1204" height="754" alt="image" src="https://github.com/user-attachments/assets/cdcdbe83-d002-4710-834c-7bcd10a5ce79" />
+
+
+---
+
+### 🔵 **Tela 3 — Resultado Final**
+Tela de encerramento, mostrando a pontuação total e um botão para voltar à seleção de animes.  
+<img width="1253" height="787" alt="image" src="https://github.com/user-attachments/assets/b2e9e68e-b661-46db-b8f7-c0e704be91e1" />
+
+---
+
 <h2>📝 Funcionalidades</h2>
 <ul>
     <li>Tela inicial com <strong>seleção de anime</strong> desejado.</li>
@@ -17,7 +41,7 @@
 
 <hr>
 
-<h2>📂 Estrutura do Projeto</h2>
+<h2>📂 Arquitetura do Projeto</h2>
 <pre>
 QuizDeAnimes/
 │
