@@ -4,12 +4,6 @@ import src.core.Pergunta;
 import java.util.ArrayList;
 import java.util.Collections;
 
-
-
-
-
-
-
 public class NarutoData {
 
     public static ArrayList<Pergunta> getNaruto() {
