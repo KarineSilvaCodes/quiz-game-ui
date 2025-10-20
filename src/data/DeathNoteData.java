@@ -3,12 +3,12 @@ package src.data;
 import src.core.Pergunta;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+
 
 public class DeathNoteData {
 
-        public static List<Pergunta> getDeathNote() {
-                List<Pergunta> lista = new ArrayList<>();
+        public static ArrayList<Pergunta> getDeathNote() {
+                ArrayList<Pergunta> lista = new ArrayList<>();
 
                 lista.add(new Pergunta(
                                 "Quem encontrou o Death Note primeiro?",

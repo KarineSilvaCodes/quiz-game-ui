@@ -3,11 +3,11 @@ package src.data;
 import src.core.Pergunta;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+
 
 public class HunterxHunterData {
 
-        public static List<Pergunta> getHunterxHunter() {
+        public static ArrayList<Pergunta> getHunterxHunter() {
                 ArrayList<Pergunta> lista = new ArrayList<>();
 
                 lista.add(new Pergunta("Quem é o protagonista da série?",
@@ -40,7 +40,7 @@ public class HunterxHunterData {
                                 new String[] { "Correto! Killua é o melhor amigo!", "Kurapika é aliado!",
                                                 "Leorio é amigo!", "Hisoka é antagonista!" }));
 
-                lista.add(new Pergunta("Quem é membro da Tropa Fantasma?",
+                lista.add(new Pergunta("Quem luta contra a Tropa Fantasma?",
                                 new String[] { "Kurapika", "Gon", "Killua", "Leorio" },
                                 0,
                                 new String[] { "Correto! Kurapika luta contra a Tropa Fantasma!", "Gon não!",
@@ -64,7 +64,7 @@ public class HunterxHunterData {
                                 new String[] { "Correto! Kurapika busca vingança!", "Gon não!", "Killua não!",
                                                 "Leorio não!" }));
 
-                lista.add(new Pergunta("Quem participa do Exame Hunter junto com Gon?",
+                lista.add(new Pergunta("Quem se torna amigo de Gon durante o Exame Hunter",
                                 new String[] { "Killua", "Kurapika", "Leorio", "Hisoka" },
                                 0,
                                 new String[] { "Correto! Killua participa com Gon!", "Kurapika não participa!",

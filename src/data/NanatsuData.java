@@ -3,11 +3,11 @@ package src.data;
 import src.core.Pergunta;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+
 
 public class NanatsuData {
 
-        public static List<Pergunta> getNanatsu() {
+        public static ArrayList<Pergunta> getNanatsu() {
                 ArrayList<Pergunta> lista = new ArrayList<>();
 
                 lista.add(new Pergunta("Quem é o líder dos Sete Pecados Capitais?",
@@ -22,7 +22,7 @@ public class NanatsuData {
                                 new String[] { "Imortalidade", "Manipulação de Fogo", "Controle da Floresta",
                                                 "Transformação Divina" },
                                 0,
-                                new String[] { "Acertou! Ban é imortal!", "Fogo? Isso é Escanor às vezes!",
+                                new String[] { "Acertou! Ban é imortal!", "Fogo? Isso é Escanor, às vezes!",
                                                 "Controle da floresta? King é que faz isso!",
                                                 "Transformação divina? Só Escanor no auge!" }));
 
@@ -30,7 +30,7 @@ public class NanatsuData {
                                 new String[] { "Escanor", "Meliodas", "Diane", "Gowther" },
                                 0,
                                 new String[] { "Correto! Escanor brilha com orgulho!", "Meliodas tem o pecado da Ira!",
-                                                "Diane é da Inveja! Quase!", "Gowther é do Pecado da Luxúria!" }));
+                                                "Quase!", "Gowther é do Pecado da Luxúria!" }));
 
                 lista.add(new Pergunta("Qual é o pecado de Diane?",
                                 new String[] { "Inveja", "Ira", "Gula", "Avareza" },
@@ -48,7 +48,7 @@ public class NanatsuData {
                 lista.add(new Pergunta("Qual membro é conhecido por sua força sobre-humana durante o dia?",
                                 new String[] { "Escanor", "Meliodas", "Ban", "Diane" },
                                 0,
-                                new String[] { "Correto! Escanor brilha ao sol!",
+                                new String[] { "Correto! Escanor brilha como o sol!",
                                                 "Meliodas é forte, mas não depende do sol!",
                                                 "Ban é imortal, não solário!", "Diane é gigante, mas não brilha!" }));
 

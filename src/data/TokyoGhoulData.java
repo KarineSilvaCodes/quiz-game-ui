@@ -3,11 +3,11 @@ package src.data;
 import src.core.Pergunta;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+
 
 public class TokyoGhoulData {
 
-    public static List<Pergunta> getTokyoGhoul() {
+    public static ArrayList<Pergunta> getTokyoGhoul() {
         ArrayList<Pergunta> lista = new ArrayList<>();
 
         lista.add(new Pergunta(
@@ -22,7 +22,7 @@ public class TokyoGhoulData {
                 }));
 
         lista.add(new Pergunta(
-                "Qual é a fruta do ghoul que Kaneki se torna?",
+                "Após receber os órgãos de Rize Kamishiro, em que tipo de ser Kaneki se transforma?",
                 new String[] { "Metamorfose de Kagune", "Quinx", "Hibrido humano-ghoul", "Quimera" },
                 2,
                 new String[] {

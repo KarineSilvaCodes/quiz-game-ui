@@ -1,15 +1,19 @@
 package src.data;
 
+import src.core.Pergunta;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
-import src.core.Pergunta;
+
+
+
+
+
 
 public class NarutoData {
 
-    public static List<Pergunta> getNaruto() {
-        List<Pergunta> perguntas = new ArrayList<>();
+    public static ArrayList<Pergunta> getNaruto() {
+        ArrayList<Pergunta> perguntas = new ArrayList<>();
 
         perguntas.add(new Pergunta(
                 "Quem é o protagonista da série?",
@@ -22,7 +26,7 @@ public class NarutoData {
                 "Quem é o melhor amigo de Naruto?",
                 new String[] { "Sasuke", "Sakura", "Kakashi", "Hinata" },
                 0,
-                new String[] { "Correto! Sasuke é melhor amigo!", "Sakura é amiga!", "Kakashi é sensei!", "Hinata é colega!" }
+                new String[] { "Correto! Sasuke é melhor amigo!", "Sakura é amiga e crush!", "Kakashi é sensei!", "Hinata é colega!" }
         ));
 
         perguntas.add(new Pergunta(
@@ -43,7 +47,7 @@ public class NarutoData {
                 "Qual é o clã de Sasuke?",
                 new String[] { "Uchiha", "Hyuga", "Senju", "Akimichi" },
                 0,
-                new String[] { "Correto! Sasuke é do clã Uchiha!", "Hyuga é de outro personagem!", "Senju é outro clã!", "Akimichi é outro clã!" }
+                new String[] { "Correto! Sasuke é do clã Uchiha!", "Hyuga é de outros personagens!", "Senju é outro clã!", "Akimichi cara, sério?" }
         ));
 
         perguntas.add(new Pergunta(
@@ -64,21 +68,21 @@ public class NarutoData {
                 "Qual é a besta de nove caudas selada dentro de Naruto?",
                 new String[] { "Kurama", "Shukaku", "Gyuki", "Matatabi" },
                 0,
-                new String[] { "Correto! Kurama é a Kyuubi de Naruto!", "Shukaku é de Gaara!", "Gyuki é o Oito Caudas!", "Matatabi é de outro Jinchuriki!" }
+                new String[] { "Correto! Kurama é a Kyuubi de Naruto!", "Shukaku é do Gaara!", "Gyuki é o Oito Caudas!", "Matatabi é de outro Jinchuriki!" }
         ));
 
         perguntas.add(new Pergunta(
                 "Quem é o lendário Sannin que treinou Naruto?",
                 new String[] { "Jiraiya", "Orochimaru", "Tsunade", "Kakashi" },
                 0,
-                new String[] { "Correto! Jiraiya é o mentor!", "Orochimaru é inimigo!", "Tsunade é Hokage!", "Kakashi é sensei da equipe!" }
+                new String[] { "Correto! Jiraiya é o mentor!", "Orochimaru é inimigo!", "Tsunade é Hokage!", "Kakashi é o sensei da equipe!" }
         ));
 
         perguntas.add(new Pergunta(
                 "Quem se torna o sexto Hokage?",
                 new String[] { "Kakashi Hatake", "Naruto Uzumaki", "Tsunade", "Minato Namikaze" },
                 0,
-                new String[] { "Correto! Kakashi se torna o sexto Hokage!", "Naruto se torna o sétimo!", "Tsunade é a quinta Hokage!", "Minato foi o quarto Hokage!" }
+                new String[] { "Correto! Kakashi se torna o sexto Hokage!", "Naruto se torna o Sétimo!", "Tsunade é a quinta Hokage!", "Minato foi o quarto Hokage!" }
         ));
 
         Collections.shuffle(perguntas);

@@ -3,11 +3,11 @@ package src.data;
 import src.core.Pergunta;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+
 
 public class KimetsuNoYaibaData {
 
-        public static List<Pergunta> getKimetsuNoYaiba() {
+        public static ArrayList<Pergunta> getKimetsuNoYaiba() {
                 ArrayList<Pergunta> lista = new ArrayList<>();
 
                 lista.add(new Pergunta("Quem é o protagonista da série?",
@@ -30,34 +30,34 @@ public class KimetsuNoYaibaData {
                                                 "Zenitsu é aliado!", "Giyu é Hashira!" }));
 
                 lista.add(new Pergunta("Qual é a respiração de Tanjiro?",
-                                new String[] { "Água", "Fogo", "Relâmpago", "Beast" },
+                                new String[] { "Sol", "Fogo", "Relâmpago", "Besta" },
                                 0,
-                                new String[] { "Correto! Tanjiro usa respiração da Água!", "Fogo? Não!",
-                                                "Relâmpago é do Zenitsu!", "Beast é do Inosuke!" }));
+                                new String[] { "Correto! Tanjiro usa respiração do Sol!", "Fogo? Não!",
+                                                "Relâmpago é do Zenitsu!", "Besta é do Inosuke!" }));
 
                 lista.add(new Pergunta("Quem é o Hashira dos Insetos?",
                                 new String[] { "Shinobu Kocho", "Giyu Tomioka", "Kyojuro Rengoku", "Tengen Uzui" },
                                 0,
                                 new String[] { "Correto! Shinobu é Hashira dos Insetos!", "Giyu é da Água!",
-                                                "Rengoku é da Chama!", "Uzui é da Névoa!" }));
+                                                "Rengoku é da Chama!", "Uzui é do Som!" }));
 
                 lista.add(new Pergunta("Quem é conhecido por usar respiração da Chama?",
                                 new String[] { "Kyojuro Rengoku", "Tanjiro", "Inosuke", "Zenitsu" },
                                 0,
-                                new String[] { "Correto! Rengoku é Hashira da Chama!", "Tanjiro usa Água!",
-                                                "Inosuke usa Beast!", "Zenitsu usa Relâmpago!" }));
+                                new String[] { "Correto! Rengoku é Hashira da Chama!", "Tanjiro usa Sol!",
+                                                "Inosuke usa Besta!", "Zenitsu usa Relâmpago!" }));
 
-                lista.add(new Pergunta("Quem é o amigo que usa respiração do Relâmpago?",
+                lista.add(new Pergunta("Quem usa a respiração do Relâmpago?",
                                 new String[] { "Zenitsu Agatsuma", "Tanjiro", "Inosuke", "Nezuko" },
                                 0,
-                                new String[] { "Correto! Zenitsu usa Relâmpago!", "Tanjiro usa Água!",
-                                                "Inosuke usa Beast!", "Nezuko não usa respiração!" }));
+                                new String[] { "Correto! Zenitsu usa Relâmpago!", "Tanjiro usa Sol!",
+                                                "Inosuke usa Besta!", "Nezuko não usa respiração!" }));
 
-                lista.add(new Pergunta("Qual amigo usa respiração Beast?",
+                lista.add(new Pergunta("Quem usa a respiração da Besta?",
                                 new String[] { "Inosuke Hashibira", "Zenitsu", "Tanjiro", "Giyu" },
                                 0,
-                                new String[] { "Correto! Inosuke usa respiração Beast!", "Zenitsu usa Relâmpago!",
-                                                "Tanjiro usa Água!", "Giyu usa Água!" }));
+                                new String[] { "Correto! Inosuke usa respiração Besta!", "Zenitsu usa Relâmpago!",
+                                                "Tanjiro usa Sol!", "Giyu usa Água!" }));
 
                 lista.add(new Pergunta("Quem é conhecido por atacar silenciosamente e rápido?",
                                 new String[] { "Kanao Tsuyuri", "Tanjiro", "Zenitsu", "Inosuke" },
@@ -66,9 +66,9 @@ public class KimetsuNoYaibaData {
                                                 "Zenitsu tem medo!", "Inosuke é explosivo!" }));
 
                 lista.add(new Pergunta("Quem é o líder da Corporação dos Caçadores de Demônios?",
-                                new String[] { "Muzan Kibutsuji", "Tanjiro", "Giyu", "Hashiras" },
+                                new String[] { "Kagaya Ubuyashiki", "Tanjiro", "Giyu", "Hashiras" },
                                 0,
-                                new String[] { "Correto! Muzan é vilão principal, mas os Hashira lideram!",
+                                new String[] { "Correto! Kagaya é o líder!",
                                                 "Tanjiro não!", "Giyu é Hashira!", "Hashiras são vários!" }));
 
                 Collections.shuffle(lista);

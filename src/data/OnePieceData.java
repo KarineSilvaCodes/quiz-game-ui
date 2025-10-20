@@ -3,19 +3,19 @@ package src.data;
 import src.core.Pergunta;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+
 
 public class OnePieceData {
 
-        public static List<Pergunta> getOnePiece() {
+        public static ArrayList<Pergunta> getOnePiece() {
                 ArrayList<Pergunta> lista = new ArrayList<>();
 
                 lista.add(new Pergunta("Quem é o capitão dos Chapéus de Palha?",
                                 new String[] { "Roronoa Zoro", "Monkey D. Luffy", "Sanji", "Usopp" }, 1,
                                 new String[] {
-                                                "Ops! Zoro é só o espadachim!",
+                                                "Ops! Zoro é o espadachim!",
                                                 "Correto! Luffy é o capitão com estilo!",
-                                                "Sanji só cozinha, não comanda!",
+                                                "Sanji cozinha, não comanda!",
                                                 "Usopp é bom de mentira, mas não de liderança!"
                                 }));
 
@@ -52,7 +52,7 @@ public class OnePieceData {
                                 new String[] { "Zoro", "Sanji", "Franky", "Usopp" }, 0,
                                 new String[] {
                                                 "Correto! Zoro corta tudo!",
-                                                "Sanji corta comida, não inimigos!",
+                                                "Sanji corta comida e chuta os inimigos!",
                                                 "Franky constrói, não espada!",
                                                 "Usopp só atira mentiras!"
                                 }));

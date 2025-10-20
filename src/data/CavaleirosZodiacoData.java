@@ -4,80 +4,122 @@ import src.core.Pergunta;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class CavaleirosZodiacoData {
+public class CavaleirosZodiacoData { 
 
     public static ArrayList<Pergunta> getCavaleirosZodiaco() {
-        ArrayList<Pergunta> perguntas = new ArrayList<>();
+        ArrayList<Pergunta> lista = new ArrayList<>();
 
-        perguntas.add(new Pergunta(
-                "Quem é o protagonista da série?",
-                new String[] { "Seiya", "Shiryu", "Hyoga", "Shun" },
-                0,
-                new String[] {
-                        "Correto! Seiya é o protagonista!",
-                        "Shiryu é aliado!",
-                        "Hyoga é aliado!",
-                        "Shun é aliado!"
-                }));
+        lista.add(new Pergunta(
+            "Quem é o protagonista da série?",
+            new String[] { "Seiya", "Shiryu", "Hyoga", "Shun" },
+            0,
+            new String[] {
+                "Correto! Seiya é o Cavaleiro de Pégaso e protagonista! 🌟",
+                "Shiryu é forte, mas não o protagonista!",
+                "Hyoga é aliado importante, mas não principal!",
+                "Shun é o pacífico, mas não é o herói principal!"
+            }));
 
-        perguntas.add(new Pergunta(
-                "Qual é o cavaleiro de bronze de Dragão?",
-                new String[] { "Shiryu", "Seiya", "Hyoga", "Shun" },
-                0,
-                new String[] {
-                        "Correto! Shiryu é o Cavaleiro de Dragão!",
-                        "Seiya é Pégaso!",
-                        "Hyoga é Cisne!",
-                        "Shun é Andrômeda!"
-                }));
+        lista.add(new Pergunta(
+            "Qual é o Cavaleiro de Dragão?",
+            new String[] { "Shiryu", "Seiya", "Hyoga", "Shun" },
+            0,
+            new String[] {
+                "Correto! Shiryu é o Cavaleiro de Dragão! 🐉",
+                "Seiya é de Pégaso!",
+                "Hyoga é de Cisne!",
+                "Shun é de Andrômeda!"
+            }));
 
-        perguntas.add(new Pergunta(
-                "Qual é o cavaleiro de bronze de Cisne?",
-                new String[] { "Seiya", "Shiryu", "Hyoga", "Shun" },
-                2,
-                new String[] {
-                        "Seiya é Pégaso!",
-                        "Shiryu é Dragão!",
-                        "Correto! Hyoga é o Cavaleiro de Cisne!",
-                        "Shun é Andrômeda!"
-                }));
+        lista.add(new Pergunta(
+            "Quem é o Cavaleiro de Cisne?",
+            new String[] { "Hyoga", "Seiya", "Shiryu", "Shun" },
+            0,
+            new String[] {
+                "Correto! Hyoga é o Cavaleiro de Cisne! ❄️",
+                "Seiya é de Pégaso!",
+                "Shiryu é de Dragão!",
+                "Shun é de Andrômeda!"
+            }));
 
-        perguntas.add(new Pergunta(
-                "Qual cavaleiro de bronze usa a armadura de Andrômeda?",
-                new String[] { "Shun", "Seiya", "Hyoga", "Shiryu" },
-                0,
-                new String[] {
-                        "Correto! Shun é Andrômeda!",
-                        "Seiya é Pégaso!",
-                        "Hyoga é Cisne!",
-                        "Shiryu é Dragão!"
-                }));
+        lista.add(new Pergunta(
+            "Qual Cavaleiro usa correntes como arma?",
+            new String[] { "Shun", "Seiya", "Shiryu", "Hyoga" },
+            0,
+            new String[] {
+                "Correto! Shun, o Cavaleiro de Andrômeda, usa correntes! ⛓️",
+                "Seiya usa socos e velocidade!",
+                "Shiryu usa punhos e golpes de dragão!",
+                "Hyoga usa golpes de gelo!"
+            }));
 
-        perguntas.add(new Pergunta(
-                "Quem é o cavaleiro de bronze de Pégaso?",
-                new String[] { "Seiya", "Shiryu", "Hyoga", "Shun" },
-                0,
-                new String[] {
-                        "Correto! Seiya veste a armadura de Pégaso!",
-                        "Shiryu é Dragão!",
-                        "Hyoga é Cisne!",
-                        "Shun é Andrômeda!"
-                }));
+        lista.add(new Pergunta(
+            "Quem é conhecida como a deusa que os Cavaleiros protegem?",
+            new String[] { "Atena", "Hades", "Poseidon", "Artemis" },
+            0,
+            new String[] {
+                "Correto! Atena é a deusa da justiça e paz! 👑",
+                "Hades é o vilão do submundo!",
+                "Poseidon é o deus do mar!",
+                "Artemis não aparece na série!"
+            }));
 
-        perguntas.add(new Pergunta(
-                "Qual cavaleiro é conhecido por seu golpe Meteoro de Pégaso?",
-                new String[] { "Seiya", "Shiryu", "Hyoga", "Shun" },
-                0,
-                new String[] {
-                        "Correto! Meteoro de Pégaso é de Seiya!",
-                        "Shiryu usa Golpe do Dragão!",
-                        "Hyoga usa Pó de Diamante!",
-                        "Shun usa Corrente Nebulosa!"
-                }));
+        lista.add(new Pergunta(
+            "Qual técnica de Seiya é famosa por concentrar todo o poder nos punhos?",
+            new String[] { "Meteoro de Pégaso", "Dragão Nascente", "Cólera do Cisne", "Corrente Nebulosa" },
+            0,
+            new String[] {
+                "Correto! Meteoro de Pégaso é o ataque icônico de Seiya! 🌠",
+                "Dragão Nascente é de Shiryu!",
+                "Cólera do Cisne é de Hyoga!",
+                "Corrente Nebulosa é de Shun!"
+            }));
 
-        // Você pode adicionar mais perguntas seguindo o mesmo padrão
+        lista.add(new Pergunta(
+            "Qual Cavaleiro é conhecido por sua armadura verde e luta com punhos poderosos?",
+            new String[] { "Shiryu", "Seiya", "Hyoga", "Shun" },
+            0,
+            new String[] {
+                "Correto! Shiryu veste a Armadura de Dragão verde e é muito poderoso! 🐉",
+                "Seiya veste armadura de Pégaso!",
+                "Hyoga veste armadura de Cisne!",
+                "Shun veste armadura de Andrômeda!"
+            }));
 
-        Collections.shuffle(perguntas);
-        return perguntas;
+        lista.add(new Pergunta(
+            "Qual Cavaleiro tem laços com o gelo e usa golpes congelantes?",
+            new String[] { "Hyoga", "Seiya", "Shiryu", "Shun" },
+            0,
+            new String[] {
+                "Correto! Hyoga é o Cavaleiro de Cisne e domina o gelo! ❄️",
+                "Seiya usa velocidade e punhos!",
+                "Shiryu usa golpes de dragão!",
+                "Shun usa correntes defensivas!"
+            }));
+
+        lista.add(new Pergunta(
+            "Quem é o Cavaleiro de Andrômeda?",
+            new String[] { "Shun", "Seiya", "Shiryu", "Hyoga" },
+            0,
+            new String[] {
+                "Correto! Shun usa correntes defensivas e é muito pacífico! ⛓️",
+                "Seiya é de Pégaso!",
+                "Shiryu é de Dragão!",
+                "Hyoga é de Cisne!"
+            }));
+
+        lista.add(new Pergunta(
+            "Qual vilão é o deus do submundo que os Cavaleiros enfrentam?",
+            new String[] { "Hades", "Poseidon", "Atena", "Ares" },
+            0,
+            new String[] {
+                "Correto! Hades é o deus do submundo e principal vilão do arco! 💀",
+                "Poseidon é o deus do mar, outro arco!",
+                "Atena é a deusa que eles protegem!",
+                "Ares não aparece na série!"
+            }));
+
+        Collections.shuffle(lista);
+        return lista;
     }
 }
