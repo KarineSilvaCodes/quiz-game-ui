@@ -86,7 +86,7 @@ QuizDeAnimes/
 <h2>🚀 Como Executar</h2>
 <ol>
     <li>Clone o projeto:
-    <pre><code>git clone https://github.com/SEU-USUARIO/quiz-de-animes.git</code></pre>
+    <pre><code>git clone https://github.com/KarineSilvaCodes/quiz-game-ui</code></pre>
     </li>
     <li>Abra a pasta no IDE de sua preferência (IntelliJ, VS Code ou Eclipse).</li>
     <li>Compile e execute o projeto:
